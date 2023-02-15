@@ -1,24 +1,32 @@
 <template>
   <NavComponent></NavComponent>
-  <MainComponentVue></MainComponentVue>
-  <img alt="Vue logo" src="./assets/logo.png">
+ <!--   <img alt="Vue logo" src="./assets/logo.png">  -->
+  <router-view></router-view>
+ <!--  <MainComponentVue></MainComponentVue> -->
+  
  <!--  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
  <FooterComponentVue></FooterComponentVue>
  
-</template>
+ 
+ </template>
 
 <script>
-/* import HelloWorld from './components/HelloWorld.vue' */
+/*  import HelloWorld from './components/HelloWorld.vue'  */
 import NavComponent from './components/NavComponent.vue';
-import MainComponentVue from './components/MainComponent.vue';
+/* import MainComponentVue from './components/MainComponent.vue'; */
 import FooterComponentVue from './components/FooterComponent.vue';
+/* import router from './router'; */
+
 
 export default {
   name: 'App',
   components: {
-   NavComponent,
-    MainComponentVue,
-    FooterComponentVue
+    NavComponent,
+    /* MainComponentVue,
+    HelloWorld, */
+   
+    FooterComponentVue,
+    /* router */
 }
 }
 </script>

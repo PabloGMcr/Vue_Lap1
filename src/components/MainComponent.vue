@@ -1,7 +1,36 @@
 <template>
-    <main>
-<h1>Hola soy el componente Main</h1>
-    </main>
+
+     
+    <div class="hello p-5">
+            
+        <h1>{{ msg }}</h1>
+        <p>
+          For a guide and recipes on how to configure / customize this project,<br>
+          check out the
+          <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+        </p>
+        <h4>Installed CLI Plugins</h4>
+        <ul>
+          <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
+          <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+        </ul>
+        <h4>Essential Links</h4>
+        <ul>
+          <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+          <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+          <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+          <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+        </ul>
+        <h4>Ecosystem</h4>
+        <ul>
+          <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
+          <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
+          <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
+          <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
+          <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+        </ul>
+      </div>
 </template>
 
 <script>
@@ -10,6 +39,37 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+
+h4 {
+    margin: 10px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-colum;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
+  .hello{
+    margin-top: auto;
+    width:auto;
+    
+  
+    
+  }
 
 </style>
