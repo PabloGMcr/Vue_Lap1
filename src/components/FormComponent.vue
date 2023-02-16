@@ -1,5 +1,5 @@
 <template>
-  <h2 class="p-5">Ejercico Formulario</h2>
+  <h2 class="p-5">Ejercicicos Formulario</h2>
   <div class="container p-5">
     <form action="" class="row">
       <input class="m-2" type="text" v-model="nombre" placeholder="Nombre" />

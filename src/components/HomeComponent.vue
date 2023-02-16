@@ -3,7 +3,7 @@
         
         <div class="texcontainer  p-5 m-5">
             <div> <h2>Vue</h2></div>
-           <div> <h3>Ejercicos Basicos</h3></div>
+           <div> <h3>Ejercicios Basicos</h3></div>
             
            
         </div>

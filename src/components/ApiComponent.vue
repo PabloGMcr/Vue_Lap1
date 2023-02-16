@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="pt-5">Ejercico consumo Api</h2>
+    <h2 class="pt-5">Ejercicios consumo Api</h2>
   </div>
 
   <div class="container">

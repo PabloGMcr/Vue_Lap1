@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <h2 class="pt-5">Ejercico Array con v-for & v-if</h2>
+        <h2 class="pt-5">Ejercicios Array con v-for & v-if</h2>
         <h2>{{mensaje}}</h2>
 
 
