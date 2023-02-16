@@ -1,4 +1,7 @@
 # labvue
+# Vue ejercicios basicos 
+
+
 
 ## Project setup
 ```
