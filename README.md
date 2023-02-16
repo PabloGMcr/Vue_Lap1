@@ -1,6 +1,14 @@
 # labvue
 # Vue ejercicios basicos 
 
+## Ejercicios
+1. Home
+2. Array
+3. Api
+4. Formulario
+5. Rutas
+
+![Texto alternativo](https://github.com/PabloGMcr/Vue_Lap1/blob/master/src/components/assets/VueImg.png)
 
 
 ## Project setup
