@@ -3,6 +3,7 @@ import FormComponent from '@/components/FormComponent.vue'
 import MainComponent from '@/components/MainComponent.vue'
 import ArrayComponent from '@/components/ArrayComponent.vue'
 import ApiComponent from '@/components/ApiComponent.vue'
+import HomeComponent from '@/components/HomeComponent.vue'
 
 
 
@@ -14,7 +15,7 @@ const routes = [
 },
 
 {
-    path:"/",
+    path:"/Main",
     name:"MainComponent",
     component:MainComponent
 },
@@ -30,6 +31,13 @@ const routes = [
     name:"ApiComponent",
     component: ApiComponent
 },
+
+{
+    path:"/",
+    name:"HomeComponent",
+    component: HomeComponent
+},
+
 
 
 ]

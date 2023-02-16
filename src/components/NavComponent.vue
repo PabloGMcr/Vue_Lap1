@@ -22,6 +22,9 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/Main">Vue</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" to="/form">Formulario</router-link>
           </li>
           <li class="nav-item">
